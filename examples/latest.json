@@ -1,6 +1,6 @@
 {
-  "version": "v30-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v30-test/BreathedgeCoopPrototype-direct-pee-emitter-v30.zip",
-  "sha256": "C1284A74B176EFA95E62130E82BEAD547E4C13766114C566FC5A6F1562BA97C0",
-  "releaseNotes": "v30 test: direct native emitter actor for the remote pee visual, with automatic proxy creation and travel recovery retained."
+  "version": "v31-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v31-test/BreathedgeCoopPrototype-pee-mechanics-sync-v31.zip",
+  "sha256": "84FB20D7516ECAEA73A7D2F4293790E59C20A16DF10BD17D7D60AA37A693F274",
+  "releaseNotes": "v31 test: synchronizes the pee particle template, relative emitter offset, and rotation delta while retaining automatic proxy creation and travel recovery."
 }
