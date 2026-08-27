@@ -6,8 +6,8 @@ co-op mod packages, starting its UE4SS TCP relay, and launching Host or Join ses
 ## Before you build
 
 1. Install the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-2. In `UpdateService.cs`, replace `ManifestUrl` with the HTTPS URL of your release
-   manifest. A template is provided at `examples/latest.json`.
+2. The launcher reads its signed-hash release metadata from `examples/latest.json`
+   on this repository's `main` branch.
 3. Package the existing `BreathedgeCoopProbe`, `BreathedgeCoopNative`, UE4SS loader,
    and TCP relay in the release ZIP. The launcher deliberately does not perform
    remote DLL injection; it starts the installed UE4SS runtime and relay.
@@ -54,7 +54,7 @@ Authenticode certificate before public distribution to reduce SmartScreen warnin
 2. Generate its digest:
 
    ```powershell
-   (Get-FileHash .\breathedge-coop-v28-test.zip -Algorithm SHA256).Hash
+   (Get-FileHash .\BreathedgeCoopPrototype-native-popup-and-pee-v29.zip -Algorithm SHA256).Hash
    ```
 
 3. Upload the immutable ZIP to a GitHub Release or HTTPS object store.
@@ -89,9 +89,11 @@ Authenticode certificate before public distribution to reduce SmartScreen warnin
 - Host mode detects and displays this PC's Radmin VPN IPv4 address. Join mode expects
   the host's Radmin address. The launcher writes `role.txt`, enables both required
   UE4SS mods, starts `BreathedgeCoopRelayTCP.exe`, and then starts Breathedge.
-- With the current prototype payload, each player must press **F9** after loading into
-  a save to spawn the remote proxy, then **F4** to enable network mode.
-- The launcher currently targets the upcoming **v28 test build**. The probe remains experimental; its bundled README explicitly says it
+- With v29, each player loads a compatible instance of the same area and presses
+  **F4** to enable network mode. Proxy creation and travel recovery are automatic;
+  **F9** remains available as a manual diagnostic.
+- The launcher currently targets the **v29 test build**. This adds synchronized native
+  item popups and improved held-pee visuals. The probe remains experimental and
   lacks authentication, encryption, discovery, NAT traversal, and reliable gameplay
   events. Do not describe or distribute it as production-complete co-op until those
   runtime features and full gameplay replication have been implemented and tested.

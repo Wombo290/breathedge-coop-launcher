@@ -8,7 +8,7 @@ namespace BreathedgeCoopLauncher.Services;
 
 public sealed class CoopRuntimeService
 {
-    public const string TargetRuntimeVersion = "v28-test";
+    public const string TargetRuntimeVersion = "v29-test";
     public const string ProbeModName = "BreathedgeCoopProbe";
     public const string NativeModName = "BreathedgeCoopNative";
 
@@ -27,6 +27,8 @@ public sealed class CoopRuntimeService
         if (!File.Exists(Path.Combine(probe, "BreathedgeCoopRelayTCP.exe"))) missing.Add("BreathedgeCoopRelayTCP.exe");
         if (!File.Exists(Path.Combine(GetModsPath(gamePath), NativeModName, "dlls", "main.dll")))
             missing.Add("BreathedgeCoopNative/dlls/main.dll");
+        if (!File.Exists(Path.Combine(gamePath, "Breathedge", "Content", "Paks", "~mods", "BreathedgeCoopProxy_P.pak")))
+            missing.Add("BreathedgeCoopProxy_P.pak");
         return missing;
     }
 
@@ -86,16 +88,16 @@ public sealed class CoopRuntimeService
     {
         string file = Path.Combine(modsPath, "mods.txt");
         if (!File.Exists(file)) throw new FileNotFoundException("UE4SS mods.txt was not found.", file);
-        string[] lines = File.ReadAllLines(file);
+        var lines = File.ReadAllLines(file).ToList();
         SetEnabled(lines, ProbeModName);
         SetEnabled(lines, NativeModName);
         File.WriteAllLines(file, lines);
     }
 
-    private static void SetEnabled(string[] lines, string modName)
+    private static void SetEnabled(List<string> lines, string modName)
     {
-        int index = Array.FindIndex(lines, line => line.TrimStart().StartsWith(modName + " ", StringComparison.OrdinalIgnoreCase));
-        if (index < 0) throw new InvalidDataException($"{modName} is missing from UE4SS mods.txt.");
-        lines[index] = $"{modName} : 1";
+        int index = lines.FindIndex(line => line.TrimStart().StartsWith(modName + " ", StringComparison.OrdinalIgnoreCase));
+        if (index < 0) lines.Add($"{modName} : 1");
+        else lines[index] = $"{modName} : 1";
     }
 }

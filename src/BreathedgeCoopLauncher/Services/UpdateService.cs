@@ -9,7 +9,7 @@ namespace BreathedgeCoopLauncher.Services;
 public sealed class UpdateService
 {
     // Replace this with your HTTPS-hosted manifest URL before distributing the launcher.
-    public const string ManifestUrl = "https://example.com/breathedge-coop/latest.json";
+    public const string ManifestUrl = "https://raw.githubusercontent.com/Wombo290/breathedge-coop-launcher/main/examples/latest.json";
     private readonly HttpClient _http = new() { Timeout = TimeSpan.FromMinutes(5) };
 
     public async Task<UpdateManifest> GetManifestAsync(CancellationToken cancellationToken = default)
@@ -87,6 +87,13 @@ public sealed class UpdateService
         foreach (string source in Directory.EnumerateFiles(stagingPath, "*", SearchOption.AllDirectories))
         {
             string relative = Path.GetRelativePath(stagingPath, source);
+            // Prototype archives place Mods relative to the Win64 executable,
+            // while their Breathedge/Content paths are relative to the game root.
+            if (relative.StartsWith("Mods" + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase))
+                relative = Path.Combine("Breathedge", "Binaries", "Win64", relative);
+            else if (relative.Equals("INSTALL.txt", StringComparison.OrdinalIgnoreCase)
+                     || relative.Equals("ADD-TO-MODS-TXT.txt", StringComparison.OrdinalIgnoreCase))
+                continue;
             string destination = Path.GetFullPath(Path.Combine(gamePath, relative));
             string gameRoot = Path.GetFullPath(gamePath) + Path.DirectorySeparatorChar;
             if (!destination.StartsWith(gameRoot, StringComparison.OrdinalIgnoreCase))

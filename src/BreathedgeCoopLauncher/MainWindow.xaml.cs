@@ -168,8 +168,8 @@ public partial class MainWindow : Window
             _relayProcess = _runtime.StartRelay(GamePathBox.Text, mode, server);
             GameLauncher.Launch(GamePathBox.Text);
             StatusText.Text = mode == LaunchMode.Host
-                ? $"Host relay started. Share {server} with Player 2. In game, press F9 then F4."
-                : $"Connecting relay to {server}. In game, press F9 then F4.";
+                ? $"Host relay started. Share {server} with Player 2. Load a save and press F4."
+                : $"Connecting relay to {server}. Load the same area as the host and press F4.";
         }
         catch (Exception ex)
         {
