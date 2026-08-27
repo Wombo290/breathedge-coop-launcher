@@ -1,0 +1,6 @@
+{
+  "version": "v28-test",
+  "downloadUrl": "https://github.com/YOUR-ORG/YOUR-REPO/releases/download/v28-test/breathedge-coop-v28-test.zip",
+  "sha256": "REPLACE_WITH_THE_64_CHARACTER_SHA256_OF_THE_ZIP_ARCHIVE",
+  "releaseNotes": "Breathedge co-op v28 test build."
+}
