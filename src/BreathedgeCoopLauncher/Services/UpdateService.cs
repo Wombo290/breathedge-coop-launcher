@@ -9,7 +9,7 @@ namespace BreathedgeCoopLauncher.Services;
 public sealed class UpdateService
 {
     // Replace this with your HTTPS-hosted manifest URL before distributing the launcher.
-    public const string ManifestUrl = "https://raw.githubusercontent.com/Wombo290/breathedge-co-op-launcher/refs/heads/main/examples/latest.json";
+    public const string ManifestUrl = "https://raw.githubusercontent.com/Wombo290/breathedge-coop-launcher/refs/heads/main/examples/latest.json";
     private readonly HttpClient _http = new() { Timeout = TimeSpan.FromMinutes(5) };
 
     public async Task<UpdateManifest> GetManifestAsync(CancellationToken cancellationToken = default)
