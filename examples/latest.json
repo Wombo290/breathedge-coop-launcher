@@ -1,6 +1,6 @@
 {
-  "version": "v32-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v32-test/BreathedgeCoopPrototype-pee-pelvis-emitter-v32.zip",
-  "sha256": "F5C7D28397C3882ACEEF6A6469420E356E5EB37E4663FDEF89BDCC97EEEEEF48",
-  "releaseNotes": "v32 test: anchors the remote pee emitter to the proxy pelvis/hips origin and explicitly activates particle visibility."
+  "version": "v33-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v33-test/BreathedgeCoopPrototype-pee-release-and-aim-v33.zip",
+  "sha256": "F7626FF2244FBAB81A6A6C38A450AE5FFDF2F8E57F1ECD8F1B6D072A98ADCBB5",
+  "releaseNotes": "v33 test: tracks remapped pee-key release state and uses authoritative sender aim rotation for the remote emitter."
 }
