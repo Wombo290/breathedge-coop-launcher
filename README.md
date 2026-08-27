@@ -92,8 +92,9 @@ Authenticode certificate before public distribution to reduce SmartScreen warnin
 - With v29, each player loads a compatible instance of the same area and presses
   **F4** to enable network mode. Proxy creation and travel recovery are automatic;
   **F9** remains available as a manual diagnostic.
-- The launcher currently targets the **v29 test build**. This adds synchronized native
-  item popups and improved held-pee visuals. The probe remains experimental and
+- The launcher follows the repository's rolling **latest test** manifest. New mod
+  builds are promoted only after their ZIP URL and SHA-256 are published there.
+  The probe remains experimental and
   lacks authentication, encryption, discovery, NAT traversal, and reliable gameplay
   events. Do not describe or distribute it as production-complete co-op until those
   runtime features and full gameplay replication have been implemented and tested.

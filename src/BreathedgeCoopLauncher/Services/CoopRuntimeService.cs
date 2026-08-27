@@ -8,7 +8,7 @@ namespace BreathedgeCoopLauncher.Services;
 
 public sealed class CoopRuntimeService
 {
-    public const string TargetRuntimeVersion = "v29-test";
+    public const string UpdateChannelName = "latest-test";
     public const string ProbeModName = "BreathedgeCoopProbe";
     public const string NativeModName = "BreathedgeCoopNative";
 

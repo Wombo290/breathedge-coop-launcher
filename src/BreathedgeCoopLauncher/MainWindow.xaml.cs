@@ -115,9 +115,9 @@ public partial class MainWindow : Window
         if (missing.Count == 0)
         {
             VersionText.Text = _settings.InstalledModVersion == "Not installed"
-                ? $"{CoopRuntimeService.TargetRuntimeVersion} · local test runtime"
+                ? "Local test runtime detected"
                 : _settings.InstalledModVersion;
-            StatusText.Text = $"UE4SS co-op probe, native plugin, and TCP relay are ready for the {CoopRuntimeService.TargetRuntimeVersion} test.";
+            StatusText.Text = "UE4SS co-op probe, native plugin, and TCP relay are ready. Check GitHub for the latest test build.";
         }
         else
         {
@@ -137,8 +137,6 @@ public partial class MainWindow : Window
         try
         {
             UpdateManifest manifest = await _updater.GetManifestAsync();
-            if (!string.Equals(manifest.Version, CoopRuntimeService.TargetRuntimeVersion, StringComparison.OrdinalIgnoreCase))
-                throw new InvalidDataException($"This launcher targets {CoopRuntimeService.TargetRuntimeVersion}, but the update feed returned {manifest.Version}.");
             StatusText.Text = $"Downloading co-op mod {manifest.Version}…";
             var progress = new Progress<double>(value => UpdateProgress.Value = value * 100);
             await _updater.InstallAsync(manifest, GamePathBox.Text, progress);

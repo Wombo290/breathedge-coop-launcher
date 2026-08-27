@@ -1,6 +1,6 @@
 {
-  "version": "v29-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v29-test/BreathedgeCoopPrototype-native-popup-and-pee-v29.zip",
-  "sha256": "A23EBC9261AF4BB5F21523BB7669FE52EC7DAF2F7B988227593E39AB2BDD040A",
-  "releaseNotes": "v29 test: native item popups, improved held-pee visuals, travel recovery, and automatic proxy creation after F4."
+  "version": "v30-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v30-test/BreathedgeCoopPrototype-direct-pee-emitter-v30.zip",
+  "sha256": "C1284A74B176EFA95E62130E82BEAD547E4C13766114C566FC5A6F1562BA97C0",
+  "releaseNotes": "v30 test: direct native emitter actor for the remote pee visual, with automatic proxy creation and travel recovery retained."
 }

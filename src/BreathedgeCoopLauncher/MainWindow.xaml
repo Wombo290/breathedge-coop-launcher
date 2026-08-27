@@ -13,7 +13,7 @@
       <Grid Grid.Row="1" Margin="46,28,46,34"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
         <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
           <StackPanel><TextBlock Text="B R E A T H E D G E" FontSize="34" FontWeight="Black"/><TextBlock Text="CO-OP SYSTEMS LAUNCHER" Foreground="{StaticResource AccentBrush}" FontSize="13" FontWeight="Bold" Margin="1,4,0,0"/></StackPanel>
-          <Border Grid.Column="1" Background="#101F29" BorderBrush="#345364" BorderThickness="1" CornerRadius="14" Padding="14,7" VerticalAlignment="Center"><StackPanel Orientation="Horizontal"><Border Width="7" Height="7" Background="{StaticResource CyanBrush}" CornerRadius="4" Margin="0,0,8,0"/><TextBlock Text="v29 TEST CHANNEL" FontSize="11" FontWeight="Bold" Foreground="#BBD0DB"/></StackPanel></Border>
+          <Border Grid.Column="1" Background="#101F29" BorderBrush="#345364" BorderThickness="1" CornerRadius="14" Padding="14,7" VerticalAlignment="Center"><StackPanel Orientation="Horizontal"><Border Width="7" Height="7" Background="{StaticResource CyanBrush}" CornerRadius="4" Margin="0,0,8,0"/><TextBlock Text="LATEST TEST CHANNEL" FontSize="11" FontWeight="Bold" Foreground="#BBD0DB"/></StackPanel></Border>
         </Grid>
         <Grid Grid.Row="1" Margin="0,25,0,23"><Grid.ColumnDefinitions><ColumnDefinition Width="1.55*"/><ColumnDefinition Width="16"/><ColumnDefinition/></Grid.ColumnDefinitions>
           <Border Background="#F00B161E" BorderBrush="#294554" BorderThickness="1" CornerRadius="8" Padding="27">
@@ -35,7 +35,7 @@
             </Grid>
           </Border>
         </Grid>
-        <Grid Grid.Row="2"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="PRE-FLIGHT NOTE" Foreground="#536E7C" FontSize="9" FontWeight="Bold"/><TextBlock Text="Both players must use v29; load the same area and press F4." Foreground="#8099A6" FontSize="12" Margin="0,4,0,0"/></StackPanel><Button Grid.Column="1" Style="{StaticResource PrimaryButton}" Content="INITIALIZE CO-OP  ▶" Click="Launch_Click"/></Grid>
+        <Grid Grid.Row="2"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="PRE-FLIGHT NOTE" Foreground="#536E7C" FontSize="9" FontWeight="Bold"/><TextBlock Text="Both players must install the same latest test build and press F4." Foreground="#8099A6" FontSize="12" Margin="0,4,0,0"/></StackPanel><Button Grid.Column="1" Style="{StaticResource PrimaryButton}" Content="INITIALIZE CO-OP  ▶" Click="Launch_Click"/></Grid>
       </Grid>
     </Grid>
   </Grid>
