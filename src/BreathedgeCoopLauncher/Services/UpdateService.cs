@@ -49,7 +49,9 @@ public sealed class UpdateService
                 }
             }
 
-            string actualHash = Convert.ToHexString(await SHA256.HashDataAsync(File.OpenRead(archivePath), cancellationToken));
+            string actualHash;
+            await using (FileStream hashStream = new(archivePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                actualHash = Convert.ToHexString(await SHA256.HashDataAsync(hashStream, cancellationToken));
             if (!CryptographicOperations.FixedTimeEquals(
                 Convert.FromHexString(actualHash), Convert.FromHexString(manifest.Sha256)))
                 throw new CryptographicException("Downloaded mod hash does not match the signed release manifest.");
@@ -61,7 +63,15 @@ public sealed class UpdateService
         }
         finally
         {
-            if (Directory.Exists(tempRoot)) Directory.Delete(tempRoot, true);
+            // Cleanup must never turn an otherwise successful installation into an
+            // "update failed" result. Windows scanners can also hold a newly
+            // downloaded archive briefly after all launcher streams are closed.
+            try
+            {
+                if (Directory.Exists(tempRoot)) Directory.Delete(tempRoot, true);
+            }
+            catch (IOException) { }
+            catch (UnauthorizedAccessException) { }
         }
     }
 
