@@ -1,6 +1,6 @@
 {
-  "version": "v36-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v36-test/BreathedgeCoopPrototype-container-sync-v36-complete.zip",
-  "sha256": "AA45F5078B7B0A4BC178C1C2EFED10D03C2EEBF72A0DFA28C5194356EDC4C78F",
-  "releaseNotes": "v36 test: synchronizes shared container contents between players and includes the required proxy PAK for clean installations."
+  "version": "v37-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v37-test/BreathedgeCoopPrototype-container-sync-fix-v37-complete.zip",
+  "sha256": "D06B4A4D0ABA1A259EAFA0BBD2FC4D02C06E0D2CF158FB6BAEB9B327EBF2461C",
+  "releaseNotes": "v37 test: fixes container synchronization and retains the required proxy PAK for clean launcher installations."
 }
