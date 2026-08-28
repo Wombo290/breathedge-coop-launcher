@@ -1,6 +1,6 @@
 {
-  "version": "v35-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v35-test/BreathedgeCoopPrototype-separate-crafting-v35-complete.zip",
-  "sha256": "228FDE756FBFEC0BB833ED8E0813C6DA220C51514C7AC2D3E5A62A5EAE9DBA8B",
-  "releaseNotes": "v35 test: keeps player inventories separate while synchronizing successful crafting notifications; includes the required proxy PAK for clean installations."
+  "version": "v36-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v36-test/BreathedgeCoopPrototype-container-sync-v36-complete.zip",
+  "sha256": "AA45F5078B7B0A4BC178C1C2EFED10D03C2EEBF72A0DFA28C5194356EDC4C78F",
+  "releaseNotes": "v36 test: synchronizes shared container contents between players and includes the required proxy PAK for clean installations."
 }
