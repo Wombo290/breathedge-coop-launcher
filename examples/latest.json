@@ -1,6 +1,6 @@
 {
-  "version": "v33-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v33-test/BreathedgeCoopPrototype-pee-release-and-aim-v33.zip",
-  "sha256": "F7626FF2244FBAB81A6A6C38A450AE5FFDF2F8E57F1ECD8F1B6D072A98ADCBB5",
-  "releaseNotes": "v33 test: tracks remapped pee-key release state and uses authoritative sender aim rotation for the remote emitter."
+  "version": "v34-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v34-test/BreathedgeCoopPrototype-crafting-sync-v34-complete.zip",
+  "sha256": "6C10F4B10242F2489CB9AE4C26381C3068D61B6087A7A6ACE664F6AA16230330",
+  "releaseNotes": "v34 test: synchronizes successful inventory crafting and carries forward the required co-op proxy PAK for clean installations."
 }
