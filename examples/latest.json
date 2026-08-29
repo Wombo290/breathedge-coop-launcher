@@ -1,6 +1,6 @@
 {
-  "version": "v37-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v37-test/BreathedgeCoopPrototype-container-sync-fix-v37-complete.zip",
-  "sha256": "D06B4A4D0ABA1A259EAFA0BBD2FC4D02C06E0D2CF158FB6BAEB9B327EBF2461C",
-  "releaseNotes": "v37 test: fixes container synchronization and retains the required proxy PAK for clean launcher installations."
+  "version": "v38-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v38-test/BreathedgeCoopPrototype-container-live-capture-v38-complete.zip",
+  "sha256": "704D4F99B3A1FA5126FBF0A4E078E1BFFD2D9D8E5B08372A97E33C5B5D9205E3",
+  "releaseNotes": "v38 test: adds live container capture synchronization and retains the required proxy PAK for clean launcher installations."
 }
