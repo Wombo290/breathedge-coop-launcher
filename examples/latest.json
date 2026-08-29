@@ -1,6 +1,6 @@
 {
-  "version": "v42-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v42-test/BreathedgeCoopPrototype-container-posttransfer-v42-complete.zip",
-  "sha256": "B06A73C1F6586A47EB8E9A5783DF07D935C3733D15500CAE07FB2A002A3D65D4",
-  "releaseNotes": "v42 test: adds the container post-transfer synchronization update and includes the required proxy PAK for clean launcher installations."
+  "version": "v43-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v43-test/BreathedgeCoopPrototype-container-ui-commit-v43-complete.zip",
+  "sha256": "BBC4B4063D3F9BA494334C281877A76219DB14F90A6079D97432DD1551AB87A7",
+  "releaseNotes": "v43 test: adds the container UI commit synchronization update and includes the required proxy PAK for clean launcher installations."
 }
