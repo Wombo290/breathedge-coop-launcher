@@ -1,6 +1,6 @@
 {
-  "version": "v45-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v45-test/BreathedgeCoopPrototype-container-ledger-v45-complete.zip",
-  "sha256": "98CE8811CA1C739C7F154782110AE92EC5EFAA443C878DEE647EEB8D2671A93B",
-  "releaseNotes": "v45 test: adds the container ledger update and includes the required proxy PAK for clean launcher installations."
+  "version": "v46-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v46-test/BreathedgeCoopPrototype-container-stage-trace-v46-complete.zip",
+  "sha256": "BC773512558A7EECBF3955503A232C692452DA679B5F88BEEBD0BB2AC59D55F7",
+  "releaseNotes": "v46 test: adds container stage tracing and disables replay of peer item popups; it includes the required proxy PAK for clean launcher installations."
 }
