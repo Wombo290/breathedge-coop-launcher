@@ -1,6 +1,6 @@
 {
-  "version": "v44-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v44-test/BreathedgeCoopPrototype-container-watcher-v44-complete.zip",
-  "sha256": "56729A098AF3C5F79D9B536C69314331FF3518D77C45323BD70C0C22F4F17517",
-  "releaseNotes": "v44 test: adds the container watcher update and includes the required proxy PAK for clean launcher installations."
+  "version": "v45-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v45-test/BreathedgeCoopPrototype-container-ledger-v45-complete.zip",
+  "sha256": "98CE8811CA1C739C7F154782110AE92EC5EFAA443C878DEE647EEB8D2671A93B",
+  "releaseNotes": "v45 test: adds the container ledger update and includes the required proxy PAK for clean launcher installations."
 }
