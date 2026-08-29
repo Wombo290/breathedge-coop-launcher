@@ -1,6 +1,6 @@
 {
-  "version": "v50-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v50-test/BreathedgeCoopPrototype-container-passive-v50-complete.zip",
-  "sha256": "3272921417AB5FBE4CE52D3BAC3509B75539F28934D15B5928DB9471D2F2A225",
-  "releaseNotes": "v50 test: adds passive container discovery with no cargo Blueprint hooks or peer overwrites; it includes the required proxy PAK for clean launcher installations."
+  "version": "v51-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v51-test/BreathedgeCoopPrototype-container-watcher-logfix-v51-complete.zip",
+  "sha256": "5F2E15016FE17FF3E98420C199299B16FBE24087C9D1AE3457239F064D0006DF",
+  "releaseNotes": "v51 test: fixes passive container watcher logging while retaining safety mode with no cargo Blueprint hooks or peer overwrites."
 }
