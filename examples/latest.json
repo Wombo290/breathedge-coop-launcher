@@ -1,6 +1,6 @@
 {
-  "version": "v46-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v46-test/BreathedgeCoopPrototype-container-stage-trace-v46-complete.zip",
-  "sha256": "BC773512558A7EECBF3955503A232C692452DA679B5F88BEEBD0BB2AC59D55F7",
-  "releaseNotes": "v46 test: adds container stage tracing and disables replay of peer item popups; it includes the required proxy PAK for clean launcher installations."
+  "version": "v47-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v47-test/BreathedgeCoopPrototype-no-ui-popups-v47-complete.zip",
+  "sha256": "03575306122D3DDE1770CE75359F5EDA35BB693641554B72FA984D12AA013A5E",
+  "releaseNotes": "v47 test: removes unsupported UI popup hooks while retaining co-op event tracking; it includes the required proxy PAK for clean launcher installations."
 }
