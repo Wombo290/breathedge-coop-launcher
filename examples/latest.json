@@ -1,6 +1,6 @@
 {
-  "version": "v40-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v40-test/BreathedgeCoopPrototype-container-grid-save-v40-complete.zip",
-  "sha256": "930EEA83E442A7CE2A55122B4DDCB2AFBE4F5F647E41CE4A262092CFED194C35",
-  "releaseNotes": "v40 test: adds container grid save synchronization and includes the required proxy PAK for clean launcher installations."
+  "version": "v41-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v41-test/BreathedgeCoopPrototype-container-postsave-v41-complete.zip",
+  "sha256": "2CD2A7F4D07A37DE829D0F11EA337300C6EB9B6A979013BB0342C76AC8CC4121",
+  "releaseNotes": "v41 test: adds the container post-save synchronization update and includes the required proxy PAK for clean launcher installations."
 }
