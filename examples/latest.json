@@ -1,6 +1,6 @@
 {
-  "version": "v47-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v47-test/BreathedgeCoopPrototype-no-ui-popups-v47-complete.zip",
-  "sha256": "03575306122D3DDE1770CE75359F5EDA35BB693641554B72FA984D12AA013A5E",
-  "releaseNotes": "v47 test: removes unsupported UI popup hooks while retaining co-op event tracking; it includes the required proxy PAK for clean launcher installations."
+  "version": "v48-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v48-test/BreathedgeCoopPrototype-container-direct-array-v48-complete.zip",
+  "sha256": "D576D080BACCF5EBED4254EF40E4B10F8B2F849117396549E996D591A50A446F",
+  "releaseNotes": "v48 test: adds the container direct-array update and includes the required proxy PAK for clean launcher installations."
 }
