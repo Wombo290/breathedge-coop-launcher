@@ -10,7 +10,7 @@ namespace BreathedgeCoopLauncher.Services;
 public sealed class UpdateService
 {
     // Replace this with your HTTPS-hosted manifest URL before distributing the launcher.
-    public const string ManifestUrl = "https://raw.githubusercontent.com/Wombo290/breathedge-coop-launcher/refs/heads/main/examples/latest.json";
+    public const string ManifestUrl = "https://api.github.com/repos/Wombo290/breathedge-coop-launcher/contents/examples/latest.json?ref=main";
     private readonly HttpClient _http = new() { Timeout = TimeSpan.FromMinutes(5) };
 
     public async Task<UpdateManifest> GetManifestAsync(CancellationToken cancellationToken = default)
@@ -20,8 +20,10 @@ public sealed class UpdateService
         // A newly published test build could therefore return the previous manifest
         // when the player clicks Update immediately after release. A unique query
         // value plus no-cache headers forces each button click to revalidate it.
-        string requestUrl = $"{ManifestUrl}?refresh={DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}";
+        string requestUrl = $"{ManifestUrl}&refresh={DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}";
         using var request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
+        request.Headers.Accept.ParseAdd("application/vnd.github.raw+json");
+        request.Headers.UserAgent.ParseAdd("BreathedgeCoopLauncher/1.0");
         request.Headers.CacheControl = new CacheControlHeaderValue
         {
             NoCache = true,
