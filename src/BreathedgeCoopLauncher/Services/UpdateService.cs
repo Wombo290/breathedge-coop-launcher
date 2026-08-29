@@ -1,5 +1,6 @@
 using System.IO.Compression;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text.Json;
 using BreathedgeCoopLauncher.Models;
@@ -15,7 +16,23 @@ public sealed class UpdateService
     public async Task<UpdateManifest> GetManifestAsync(CancellationToken cancellationToken = default)
     {
         EnsureHttps(ManifestUrl);
-        await using Stream stream = await _http.GetStreamAsync(ManifestUrl, cancellationToken);
+        // raw.githubusercontent.com normally permits five minutes of edge caching.
+        // A newly published test build could therefore return the previous manifest
+        // when the player clicks Update immediately after release. A unique query
+        // value plus no-cache headers forces each button click to revalidate it.
+        string requestUrl = $"{ManifestUrl}?refresh={DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}";
+        using var request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
+        request.Headers.CacheControl = new CacheControlHeaderValue
+        {
+            NoCache = true,
+            NoStore = true,
+            MaxAge = TimeSpan.Zero
+        };
+        request.Headers.Pragma.ParseAdd("no-cache");
+        using HttpResponseMessage response = await _http.SendAsync(request,
+            HttpCompletionOption.ResponseHeadersRead, cancellationToken);
+        response.EnsureSuccessStatusCode();
+        await using Stream stream = await response.Content.ReadAsStreamAsync(cancellationToken);
         return await JsonSerializer.DeserializeAsync<UpdateManifest>(stream, cancellationToken: cancellationToken)
             ?? throw new InvalidDataException("The update manifest is empty or invalid.");
     }
