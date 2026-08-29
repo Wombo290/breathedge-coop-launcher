@@ -1,6 +1,6 @@
 {
-  "version": "v54-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v54-test/BreathedgeCoopPrototype-container-deposit-sync-v54-complete.zip",
-  "sha256": "8E1D0B8ACAC9E51F313C44296B2A8C7EA6D2958966524F6D2B72CBAB3F55C235",
-  "releaseNotes": "v54 experimental: host-approved, deposit-only shared-container synchronization. Withdrawals remain disabled while native storage updates are tested."
+  "version": "v55-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v55-test/BreathedgeCoopPrototype-container-deposit-sync-v55-complete.zip",
+  "sha256": "67D7BC5A9A2E50D9AABAF9E90930E46AA299D7108C3175914F8A9AF25B5B705A",
+  "releaseNotes": "v55 experimental: fixes the native container deposit call. Host-approved deposits only; withdrawals remain disabled during testing."
 }
