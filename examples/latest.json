@@ -1,6 +1,6 @@
 {
-  "version": "v43-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v43-test/BreathedgeCoopPrototype-container-ui-commit-v43-complete.zip",
-  "sha256": "BBC4B4063D3F9BA494334C281877A76219DB14F90A6079D97432DD1551AB87A7",
-  "releaseNotes": "v43 test: adds the container UI commit synchronization update and includes the required proxy PAK for clean launcher installations."
+  "version": "v44-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v44-test/BreathedgeCoopPrototype-container-watcher-v44-complete.zip",
+  "sha256": "56729A098AF3C5F79D9B536C69314331FF3518D77C45323BD70C0C22F4F17517",
+  "releaseNotes": "v44 test: adds the container watcher update and includes the required proxy PAK for clean launcher installations."
 }
