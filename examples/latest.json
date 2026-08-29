@@ -1,6 +1,6 @@
 {
-  "version": "v52-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v52-test/BreathedgeCoopPrototype-container-ledger-v52-complete.zip",
-  "sha256": "618428B5034AC2F672510148FB3E4F23CE8331CBA5FC1F12F5E6B04E2256FFA6",
-  "releaseNotes": "v52 test: adds revisioned host container ledger events while retaining passive safety mode with no peer overwrites."
+  "version": "v53-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v53-test/BreathedgeCoopPrototype-container-validation-v53-complete.zip",
+  "sha256": "32F1591EAB7FEF1C5EDBE38DF4F9F1BD3BD7F37F9F36607A852D52CD4CAC528A",
+  "releaseNotes": "v53 test: adds host-side container request validation, revision acknowledgements, and stale-state rejection while retaining passive safety mode."
 }
