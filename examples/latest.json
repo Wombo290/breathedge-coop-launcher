@@ -1,6 +1,6 @@
 {
-  "version": "v53-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v53-test/BreathedgeCoopPrototype-container-validation-v53-complete.zip",
-  "sha256": "32F1591EAB7FEF1C5EDBE38DF4F9F1BD3BD7F37F9F36607A852D52CD4CAC528A",
-  "releaseNotes": "v53 test: adds host-side container request validation, revision acknowledgements, and stale-state rejection while retaining passive safety mode."
+  "version": "v54-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v54-test/BreathedgeCoopPrototype-container-deposit-sync-v54-complete.zip",
+  "sha256": "8E1D0B8ACAC9E51F313C44296B2A8C7EA6D2958966524F6D2B72CBAB3F55C235",
+  "releaseNotes": "v54 experimental: host-approved, deposit-only shared-container synchronization. Withdrawals remain disabled while native storage updates are tested."
 }
