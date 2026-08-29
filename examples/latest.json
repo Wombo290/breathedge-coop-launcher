@@ -1,6 +1,6 @@
 {
-  "version": "v51-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v51-test/BreathedgeCoopPrototype-container-watcher-logfix-v51-complete.zip",
-  "sha256": "5F2E15016FE17FF3E98420C199299B16FBE24087C9D1AE3457239F064D0006DF",
-  "releaseNotes": "v51 test: fixes passive container watcher logging while retaining safety mode with no cargo Blueprint hooks or peer overwrites."
+  "version": "v52-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v52-test/BreathedgeCoopPrototype-container-ledger-v52-complete.zip",
+  "sha256": "618428B5034AC2F672510148FB3E4F23CE8331CBA5FC1F12F5E6B04E2256FFA6",
+  "releaseNotes": "v52 test: adds revisioned host container ledger events while retaining passive safety mode with no peer overwrites."
 }
