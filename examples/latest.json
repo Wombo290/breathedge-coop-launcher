@@ -1,6 +1,6 @@
 {
-  "version": "v39-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v39-test/BreathedgeCoopPrototype-container-ui-path-v39-complete.zip",
-  "sha256": "A85EF91E61F820C2E72F400018DB713D5B958E35F92E7AA1F8F7DED31E4C443A",
-  "releaseNotes": "v39 test: adds the container UI path synchronization update and retains the required proxy PAK for clean launcher installations."
+  "version": "v40-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v40-test/BreathedgeCoopPrototype-container-grid-save-v40-complete.zip",
+  "sha256": "930EEA83E442A7CE2A55122B4DDCB2AFBE4F5F647E41CE4A262092CFED194C35",
+  "releaseNotes": "v40 test: adds container grid save synchronization and includes the required proxy PAK for clean launcher installations."
 }
