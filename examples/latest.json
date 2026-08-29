@@ -1,6 +1,6 @@
 {
-  "version": "v48-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v48-test/BreathedgeCoopPrototype-container-direct-array-v48-complete.zip",
-  "sha256": "D576D080BACCF5EBED4254EF40E4B10F8B2F849117396549E996D591A50A446F",
-  "releaseNotes": "v48 test: adds the container direct-array update and includes the required proxy PAK for clean launcher installations."
+  "version": "v49-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v49-test/BreathedgeCoopPrototype-container-safety-v49-complete.zip",
+  "sha256": "D06A936608505EBEC26E68ECB792B000DC6E48F2BA6693CA3BB3F6F44178317E",
+  "releaseNotes": "v49 test: adds container safety mode, recording host revisions without overwriting peer containers; it includes the required proxy PAK for clean launcher installations."
 }
