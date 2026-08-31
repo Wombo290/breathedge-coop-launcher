@@ -1,6 +1,6 @@
 {
-  "version": "v64-container-bound-call",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v64-container-bound-call/BreathedgeCoopPrototype-container-bound-call-v64-20260830223625.zip",
-  "sha256": "AA666BBD222FB6B24474E005F51B691722F7B6D2933BECB4DFF465768BDA4720",
-  "releaseNotes": "Container deposit fix: calls Breathedge’s storage action directly from the open cargo component, preserving its required object context. Host-authoritative deposits only; no direct array edits, saves, or withdrawals."
+  "version": "v65-container-ufunction",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v65-container-ufunction/BreathedgeCoopPrototype-container-ufunction-v65-20260830224139.zip",
+  "sha256": "69C7B5AFD8156519A85D26EB88E0964171FD293B1098134AD4BA92B55A5D2311",
+  "releaseNotes": "Container deposit fix: UE4SS exposes Breathedge’s open-cargo storage action as callable userdata; v65 invokes it directly. Host-authoritative deposits only; no direct array edits, saves, or withdrawals."
 }
