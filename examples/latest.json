@@ -1,6 +1,6 @@
 {
-  "version": "v55-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v55-test/BreathedgeCoopPrototype-container-deposit-sync-v55-complete.zip",
-  "sha256": "67D7BC5A9A2E50D9AABAF9E90930E46AA299D7108C3175914F8A9AF25B5B705A",
-  "releaseNotes": "v55 experimental: fixes the native container deposit call. Host-approved deposits only; withdrawals remain disabled during testing."
+  "version": "v56-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v56-test/BreathedgeCoopPrototype-container-deposit-sync-v56-complete.zip",
+  "sha256": "21CE931A80E540C478B8D4E544CFD637340AD43A15B2286D26FC721637FAFDCE",
+  "releaseNotes": "v56 experimental: fixes the native storage call through UE4SS reflection. Host-approved deposits only; withdrawals remain disabled during testing."
 }
