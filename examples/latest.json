@@ -1,6 +1,6 @@
 {
-  "version": "v71-native-locker-bridge",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v71-native-locker-bridge/BreathedgeCoopPrototype-native-locker-bridge-v71-20260830233404.zip",
-  "sha256": "B356FC58186D6E792C1408D7A1F527E74F59A418131FC820B4ABDBACDC4C104C",
-  "releaseNotes": "Host-authoritative container test: the native game-thread bridge performs one approved locker deposit using Breathedge's own storage action. It never clears or rebuilds a container array. Update both PCs."
+  "version": "v72-live-locker-resolver",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v72-live-locker-resolver/BreathedgeCoopPrototype-live-locker-resolver-v72-20260830234350.zip",
+  "sha256": "9D75439D5422485CE866EC48D51ECEFAA6CA8C504CC0C6CF6D80895AA61D6D18",
+  "releaseNotes": "Fixes v71's confirmed live-locker lookup failure. The native bridge now resolves the open cargo component from Breathedge's live object list before using the normal storage action. Update both PCs."
 }
