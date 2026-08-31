@@ -1,6 +1,6 @@
 {
-  "version": "v67-container-context",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v67-container-context/BreathedgeCoopPrototype-container-context-v67-20260830225722.zip",
-  "sha256": "144989EAF6514C79DEA063AC97A564624FA0134C2B5A1C16AA0D2CC593D47AB3",
-  "releaseNotes": "Container deposit fix: invokes Breathedge’s open-cargo storage action with its required explicit cargo context, followed by the verified item and Add inputs."
+  "version": "v68-native-storage-probe",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v68-native-storage-probe/BreathedgeCoopPrototype-native-storage-probe-v68-20260830230513.zip",
+  "sha256": "8BFCE022EC3061717B584F9B5418638162E30B8BB490E51B105D9B06842A7300",
+  "releaseNotes": "Native storage diagnostic built through UE4SS itself. It records Breathedge locker transfers but does not alter any locker or inventory."
 }
