@@ -1,6 +1,6 @@
 {
-  "version": "v58-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v58-test/BreathedgeCoopPrototype-container-deposit-sync-v58-complete.zip",
-  "sha256": "217CF103E63A17C8C06C4FA0FB127DB93FEE5A10C0C44B9F57055730D43D2BA3",
-  "releaseNotes": "v58 experimental: calls the native storage UFunction with UE4SS's required context-bound form. Host-approved deposits only; withdrawals remain disabled during testing."
+  "version": "v59-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v59-test/BreathedgeCoopPrototype-container-deposit-sync-v59-complete.zip",
+  "sha256": "BA7CC3ECDA0503D94CF784B959672F3807AC9E4492480BD596CA8D6AFA79F7F1",
+  "releaseNotes": "v59 experimental: calls Breathedge's unbound native storage UFunction with the cargo object context. Host-approved deposits only; withdrawals remain disabled during testing."
 }
