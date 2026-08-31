@@ -1,6 +1,6 @@
 {
-  "version": "v59-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v59-test/BreathedgeCoopPrototype-container-deposit-sync-v59-complete.zip",
-  "sha256": "BA7CC3ECDA0503D94CF784B959672F3807AC9E4492480BD596CA8D6AFA79F7F1",
-  "releaseNotes": "v59 experimental: calls Breathedge's unbound native storage UFunction with the cargo object context. Host-approved deposits only; withdrawals remain disabled during testing."
+  "version": "v53-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v53-test/BreathedgeCoopPrototype-container-validation-v53-complete.zip",
+  "sha256": "32F1591EAB7FEF1C5EDBE38DF4F9F1BD3BD7F37F9F36607A852D52CD4CAC528A",
+  "releaseNotes": "v53 safety build: records and validates container requests without changing any locker or inventory data."
 }
