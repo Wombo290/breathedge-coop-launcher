@@ -1,6 +1,6 @@
 {
-  "version": "v53-test",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v53-test/BreathedgeCoopPrototype-container-validation-v53-complete.zip",
-  "sha256": "32F1591EAB7FEF1C5EDBE38DF4F9F1BD3BD7F37F9F36607A852D52CD4CAC528A",
-  "releaseNotes": "v53 safety build: records and validates container requests without changing any locker or inventory data."
+  "version": "v60-test",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v60-test/BreathedgeCoopPrototype-native-container-probe-v60.zip",
+  "sha256": "AEE08AC8537C22D8F2BE608EFB18C456FCCB4950E4346A131481A0C202E3AB36",
+  "releaseNotes": "v60 read-only native container diagnostic: records the game’s real locker deposit and withdrawal calls without changing any inventory or storage data."
 }
