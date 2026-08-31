@@ -1,6 +1,6 @@
 {
-  "version": "v61-safe-rollback",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v61-safe-rollback/BreathedgeCoopPrototype-container-validation-v53-complete.zip",
-  "sha256": "32F1591EAB7FEF1C5EDBE38DF4F9F1BD3BD7F37F9F36607A852D52CD4CAC528A",
-  "releaseNotes": "Emergency safe rollback: restores the proven v53 co-op package and removes the incompatible v60 diagnostic DLL."
+  "version": "v62-storage-trace",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v62-storage-trace/BreathedgeCoopPrototype-storage-trace-v62.zip",
+  "sha256": "F4712BAACA7EC41075ED25B1AE32348C4F6B010452B2562A46AC4DAFF13C56B3",
+  "releaseNotes": "Read-only storage trace: records the game’s real locker transfer context without changing any inventory, locker, or network data."
 }
