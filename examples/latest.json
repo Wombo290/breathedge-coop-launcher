@@ -1,6 +1,6 @@
 {
-  "version": "v62-storage-trace",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v62-storage-trace/BreathedgeCoopPrototype-storage-trace-v62.zip",
-  "sha256": "F4712BAACA7EC41075ED25B1AE32348C4F6B010452B2562A46AC4DAFF13C56B3",
-  "releaseNotes": "Read-only storage trace: records the game’s real locker transfer context without changing any inventory, locker, or network data."
+  "version": "v63-container-deposit",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v63-container-deposit/BreathedgeCoopPrototype-native-storage-deposit-v63.zip",
+  "sha256": "0EE356F8554FA2260CB5D60A74A89CC2201DFF5394D5B1F33C0D04929045E55B",
+  "releaseNotes": "Container deposit test: applies approved deposits through Breathedge’s real BP_Cargo storage call only; no direct arrays, saves, or withdrawals."
 }
