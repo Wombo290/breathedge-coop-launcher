@@ -1,6 +1,6 @@
 {
-  "version": "v65-container-ufunction",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v65-container-ufunction/BreathedgeCoopPrototype-container-ufunction-v65-20260830224139.zip",
-  "sha256": "69C7B5AFD8156519A85D26EB88E0964171FD293B1098134AD4BA92B55A5D2311",
-  "releaseNotes": "Container deposit fix: UE4SS exposes Breathedge’s open-cargo storage action as callable userdata; v65 invokes it directly. Host-authoritative deposits only; no direct array edits, saves, or withdrawals."
+  "version": "v66-container-staging",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v66-container-staging/BreathedgeCoopPrototype-container-staging-v66-20260830225019.zip",
+  "sha256": "88CB35C33CB69BEB0DF1EE2800FE9580798741488C058C0A361F124C2C26A7C7",
+  "releaseNotes": "Safe container diagnostic: verifies the host cargo component, resource asset, and transient item construction, then makes no storage or inventory change."
 }
