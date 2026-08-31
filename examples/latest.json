@@ -1,6 +1,6 @@
 {
-  "version": "v66-container-staging",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v66-container-staging/BreathedgeCoopPrototype-container-staging-v66-20260830225019.zip",
-  "sha256": "88CB35C33CB69BEB0DF1EE2800FE9580798741488C058C0A361F124C2C26A7C7",
-  "releaseNotes": "Safe container diagnostic: verifies the host cargo component, resource asset, and transient item construction, then makes no storage or inventory change."
+  "version": "v67-container-context",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v67-container-context/BreathedgeCoopPrototype-container-context-v67-20260830225722.zip",
+  "sha256": "144989EAF6514C79DEA063AC97A564624FA0134C2B5A1C16AA0D2CC593D47AB3",
+  "releaseNotes": "Container deposit fix: invokes Breathedge’s open-cargo storage action with its required explicit cargo context, followed by the verified item and Add inputs."
 }
