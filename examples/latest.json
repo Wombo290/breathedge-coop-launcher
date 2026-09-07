@@ -1,6 +1,6 @@
 {
-  "version": "v74-container-withdrawal",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v74-container-withdrawal/BreathedgeCoopPrototype-container-withdrawal-v74.zip",
-  "sha256": "95DA31BB6B616EE8B052F304994990918CF2E89A0FEA9986741A10F8E88874C1",
-  "releaseNotes": "Single-item withdrawal test in both directions; v73 deposit retained. Update both PCs. Take turns: PC 2 takes the sole Wire and closes; host opens, waits, closes and reopens. Receiver inventory must remain unchanged. Simultaneous withdrawals are not supported yet."
+  "version": "v75-container-identity",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v75-container-identity/BreathedgeCoopPrototype-container-identity-v75.zip",
+  "sha256": "6D1CA72A5EB191E8D53E86151A9BF31B07C9D8691D39AB17B05E665D1162424E",
+  "releaseNotes": "Fixes withdrawal rejection when the same Wire occupies different grid slots. Update both PCs. Restore one Wire in both lockers before F4, then repeat the sequential PC 2 withdrawal test. 33 protocol tests pass; in-game removal still needs verification."
 }
