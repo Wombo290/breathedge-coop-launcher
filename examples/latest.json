@@ -1,6 +1,6 @@
 {
-  "version": "v73-game-thread-container",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v73-game-thread-container/BreathedgeCoopPrototype-game-thread-container-v73.zip",
-  "sha256": "F6ABBF07324614A663B09F7525CAD461FD66F7D7B6AA25105A0A3FE52A476ADD",
-  "releaseNotes": "Limited container test: fixes background-thread execution, stale requests and repeated errors. Update both PCs; test one client Wire deposit into a locker empty on both PCs. Host must close and reopen after the transfer. Full storage synchronization remains in development."
+  "version": "v74-container-withdrawal",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v74-container-withdrawal/BreathedgeCoopPrototype-container-withdrawal-v74.zip",
+  "sha256": "95DA31BB6B616EE8B052F304994990918CF2E89A0FEA9986741A10F8E88874C1",
+  "releaseNotes": "Single-item withdrawal test in both directions; v73 deposit retained. Update both PCs. Take turns: PC 2 takes the sole Wire and closes; host opens, waits, closes and reopens. Receiver inventory must remain unchanged. Simultaneous withdrawals are not supported yet."
 }
