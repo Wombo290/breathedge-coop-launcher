@@ -1,6 +1,6 @@
 {
-  "version": "v79-cargo-widget-delta",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v79-cargo-widget-delta/BreathedgeCoopPrototype-cargo-widget-delta-v79.zip",
-  "sha256": "BB22307A5080B5636AC0EB180A38EE1F17D4F294DB944527888C071311B08863",
-  "releaseNotes": "Fixes the v78 UI result where two grids matched and the stale Wire remained visible despite successful host removal. v79 excludes personal-inventory grids using Unreal item-object ownership, targets the single cargo grid, calls the normal update event, and removes only a stale withdrawn-item widget if it no longer exists in BP_Cargo.StorageItems. Update both PCs after closing Breathedge and repeat the one-Wire open-locker withdrawal test."
+  "version": "v80-live-transient-grid",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v80-live-transient-grid/BreathedgeCoopPrototype-live-transient-grid-v80.zip",
+  "sha256": "BEBD7FB14730FCF8F41519984C95B04391A97AABE342620C62C7925394EA0959",
+  "releaseNotes": "The v79 two-PC test validated real-time withdrawal, but deposits matched both a Blueprint template grid and the actual open locker. v80 excludes /Game/UI/ template widget trees, targets only the live /Engine/Transient cargo grid, and invokes Breathedge's normal inventory update event so a remotely deposited item can be constructed in the already-open locker UI. The saved-state and proven withdrawal paths remain intact."
 }
