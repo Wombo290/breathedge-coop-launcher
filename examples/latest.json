@@ -1,6 +1,6 @@
 {
-  "version": "v75-container-identity",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v75-container-identity/BreathedgeCoopPrototype-container-identity-v75.zip",
-  "sha256": "6D1CA72A5EB191E8D53E86151A9BF31B07C9D8691D39AB17B05E665D1162424E",
-  "releaseNotes": "Fixes withdrawal rejection when the same Wire occupies different grid slots. Update both PCs. Restore one Wire in both lockers before F4, then repeat the sequential PC 2 withdrawal test. 33 protocol tests pass; in-game removal still needs verification."
+  "version": "v76-live-container",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v76-live-container/BreathedgeCoopPrototype-live-container-v76-candidate.zip",
+  "sha256": "16AAFE5423CCEBC08B33967EEBDDB19C51D93E17BEF5543B202A46792C3C9997",
+  "releaseNotes": "Adds a guarded live single-item transfer path and refreshes the uniquely matched open locker grid through Breathedge's D_UpdateInventory_Event. The v75 saved-change path remains as fallback. Update both PCs and test sequential one-Wire deposit and withdrawal with both locker UIs open. Multi-item and simultaneous access remain unsupported; live two-PC UI behavior is not yet verified."
 }
