@@ -1,6 +1,6 @@
 {
-  "version": "v77-native-ack-live-ui",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v77-native-ack-live-ui/BreathedgeCoopPrototype-native-ack-live-ui-v77.zip",
-  "sha256": "CF307BA311F3EC9B5265D402FD397EBE15EF0D1633E2E9F0CFC5C66BD609C10D",
-  "releaseNotes": "Moves the open-locker UI refresh to the proven native mutation acknowledgement boundary after v76 showed no live-hook refresh. On added-awaiting-save or removed-awaiting-save, v77 refreshes the uniquely matched W_InventoryGrid once through D_UpdateInventory_Event. The v75 saved-change fallback remains intact. Update both PCs and repeat the sequential one-Wire test with both locker UIs left open."
+  "version": "v78-deferred-live-transfer",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v78-deferred-live-transfer/BreathedgeCoopPrototype-deferred-live-transfer-v78.zip",
+  "sha256": "84CDF6D4A7F3031B6CF7C12DF7A566473A8C423E567048FB04446517AAF1F3CE",
+  "releaseNotes": "Fixes the missing live request seen in the v77 two-PC test. Add/RemoveItem now queues the exact operation and samples BP_Cargo.StorageItems on the next controller tick, after Breathedge finishes the transfer. The host then applies the authoritative operation and refreshes the matching open W_InventoryGrid from the native acknowledgement. Update both PCs only after closing Breathedge and repeat the single-Wire open-locker test."
 }
