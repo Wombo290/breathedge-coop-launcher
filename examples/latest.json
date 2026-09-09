@@ -1,6 +1,6 @@
 {
-  "version": "v76-live-container",
-  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v76-live-container/BreathedgeCoopPrototype-live-container-v76-candidate.zip",
-  "sha256": "16AAFE5423CCEBC08B33967EEBDDB19C51D93E17BEF5543B202A46792C3C9997",
-  "releaseNotes": "Adds a guarded live single-item transfer path and refreshes the uniquely matched open locker grid through Breathedge's D_UpdateInventory_Event. The v75 saved-change path remains as fallback. Update both PCs and test sequential one-Wire deposit and withdrawal with both locker UIs open. Multi-item and simultaneous access remain unsupported; live two-PC UI behavior is not yet verified."
+  "version": "v77-native-ack-live-ui",
+  "downloadUrl": "https://github.com/Wombo290/breathedge-coop-launcher/releases/download/v77-native-ack-live-ui/BreathedgeCoopPrototype-native-ack-live-ui-v77.zip",
+  "sha256": "CF307BA311F3EC9B5265D402FD397EBE15EF0D1633E2E9F0CFC5C66BD609C10D",
+  "releaseNotes": "Moves the open-locker UI refresh to the proven native mutation acknowledgement boundary after v76 showed no live-hook refresh. On added-awaiting-save or removed-awaiting-save, v77 refreshes the uniquely matched W_InventoryGrid once through D_UpdateInventory_Event. The v75 saved-change fallback remains intact. Update both PCs and repeat the sequential one-Wire test with both locker UIs left open."
 }
